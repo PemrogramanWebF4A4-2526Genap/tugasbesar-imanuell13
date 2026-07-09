@@ -1,0 +1,175 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: #f6f8fb;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #1f2937;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+}
+
+.hero {
+    background: #5a4306;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0,0,0,.15);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    opacity: .95;
+}
+
+.card,
+.dashboard-box {
+    background: #fff;
+    border: 0;
+    border-radius: 16px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, .06);
+}
+
+.dashboard-box {
+    padding: 20px;
+}
+
+.product-img,
+.card .product-img {
+    height: 160px;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 12px;
+}
+
+.badge-role {
+    letter-spacing: .5px;
+}
+
+.badge.bg-primary {
+    background-color: #fbbc04 !important;
+    color: #111827 !important;
+}
+
+.rating {
+    color: #f59e0b;
+}
+
+.fw-bold.text-primary {
+    color: #e69500 !important;
+    margin-bottom: 8px;
+}
+
+.card p.small {
+    margin-bottom: 15px;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+.form-control,
+.form-select,
+.btn {
+    border-radius: 10px;
+}
+
+.ajax-cart-form {
+    margin-bottom: 10px;
+}
+
+.btn-primary,
+.btn-warning {
+    background: #f4b400;
+    border-color: #f4b400;
+    color: #111827;
+    font-weight: 600;
+    transition: all .2s ease;
+}
+
+.btn-primary:hover,
+.btn-warning:hover {
+    background: #ffca28;
+    border-color: #ffca28;
+    color: #111827;
+    box-shadow: 0 4px 12px rgba(244, 180, 0, .3);
+}
+
+.btn-primary:active,
+.btn-warning:active {
+    transform: scale(.98);
+}
+
+.btn-success,
+.btn-secondary {
+    background: #111827;
+    border-color: #111827;
+    color: #fff;
+    transition: all .2s ease;
+}
+
+.btn-success:hover,
+.btn-secondary:hover {
+    background: #1f2937;
+    border-color: #1f2937;
+    color: #fff;
+}
+
+.btn-danger {
+    font-weight: 600;
+}
+
+.btn-detail {
+    background: transparent;
+    border: 1px solid #fbbc04;
+    color: #e69500;
+    transition: all .2s ease;
+}
+
+.btn-detail:hover {
+    background: #fbbc04;
+    color: #111827;
+    box-shadow: 0 4px 12px rgba(244, 180, 0, .25);
+}
+
+.footer-company {
+    background: #111827;
+    color: #ffffff;
+    margin-top: auto;
+}
+
+.footer-company a {
+    color: #d1d5db;
+    text-decoration: none;
+}
+
+.footer-company a:hover {
+    color: #f4b400;
+}
+
+.footer-company p,
+.footer-company li {
+    color: #d1d5db;
+}
+
+.footer-company hr {
+    border-color: rgba(255, 255, 255, 0.2);
+}
